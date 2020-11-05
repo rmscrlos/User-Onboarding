@@ -18,7 +18,10 @@ body {
 
 .App h1 {
   margin-bottom: 2rem;
-	text-align: center;
+  text-align: center;
+  margin: 2rem auto;
+  border-bottom: 2px solid #fff;
+  width: 26%;
 }
 
 form {
@@ -31,15 +34,20 @@ form {
   display: flex;
   flex-direction: column;
   padding: 4rem;
+  margin-bottom: 2rem;
+}
+
+label:first-child {
+  margin-top: 0rem;
 }
 
 label {
+  margin-top: 2rem;
   font-size: 1.2rem;
   font-weight: 900;
 }
 
 input {
-  margin-bottom: 2rem;
   padding: .5rem .3rem;
 }
 
@@ -61,4 +69,26 @@ button {
   background: crimson;
   border: none;
   border-radius: 5px;
+  margin-top: 2rem;
+}
+
+.error {
+  color:red;
+  font-size: .8rem;
+  padding: .2rem;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.post {
+  padding: 4rem;
+  text-align: center;
+  background: rgba(255, 255, 255, 1);
+  box-shadow: 0px 0px 16px -4px rgba(0,0,0,0.3);
+  border-radius: .6rem;
+  color: rgb(36, 36, 36); 
 }
